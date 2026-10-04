@@ -1,0 +1,42 @@
+{
+  "signature": "RF.",
+  "pays": "République Française",
+  "devise": "Liberté · Égalité · Fraternité",
+  "timestamp": "2026-10-04T20:11:34.258Z",
+  "timestamp_local": "05/10/2026 00:11:34",
+  "params": {
+    "v": 700,
+    "T": 343,
+    "eta": 0.8,
+    "xp": 5
+  },
+  "diffusion": {
+    "alpha": 1.0043,
+    "n": 465,
+    "swu": -102.95828761336001,
+    "energy": -28828320531.740803,
+    "ratio": -2844.4251516391896
+  },
+  "centrifugation": {
+    "alpha": 1.2352027119758815,
+    "n": 10,
+    "swu": -102.95828761336001,
+    "energy": -3088748628.4008,
+    "ratio": -26547.968081965773
+  },
+  "laser": {
+    "alpha": 1000,
+    "n": 1,
+    "swu": 0.5,
+    "energy": 5000000,
+    "ratio": 16400000
+  },
+  "optimisation": {
+    "algo": "IGWO",
+    "cascade": "conique",
+    "machines": 616,
+    "gain": "38%",
+    "iterations": 661,
+    "timeRel": "×0.84"
+  }
+}
