@@ -3,13 +3,15 @@
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/fr/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/fr/docs/Web/CSS)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/fr/docs/Web/JavaScript)
-[![License](https://img.shields.io/badge/License-MIT-0055A4?style=for-the-badge)](LICENSE)
+[![License](https://img.shields.io/badge/License-MIT-0055A4?style=for-the-badge)](https://github.com/gunout/enrichissement-u_92/blob/main/LICENSE)
 [![Made in France](https://img.shields.io/badge/Made%20in-France-EF4135?style=for-the-badge)](#)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-3fb950?style=for-the-badge)](#)
+[![Repo](https://img.shields.io/badge/GitHub-gunout%2Fenrichissement--u__92-0055A4?style=for-the-badge&logo=github)](https://github.com/gunout/enrichissement-u_92)
 
 > **Liberté · Égalité · Fraternité**
 >
 > Dashboard interactif de simulation et d'optimisation de l'enrichissement de l'uranium, basé sur la relation fondamentale `α = exp(ΔM·v²/2RT) · η` et l'équation d'Einstein `E = Δm · c²`.
+
+🔗 **Dépôt officiel** : [github.com/gunout/enrichissement-u_92](https://github.com/gunout/enrichissement-u_92)
 
 ---
 
@@ -24,6 +26,7 @@
 - [Exports](#-exports)
 - [Structure du projet](#-structure-du-projet)
 - [Roadmap](#-roadmap)
+- [Contribution](#-contribution)
 - [Licence](#-licence)
 
 ---
@@ -116,16 +119,14 @@ E = \Delta m \cdot c^2 \approx 8.2 \times 10^{13} \ \text{J/kg}
 
 **Aucune dépendance, aucun build.** Un simple navigateur suffit.
 
-### Option 1 — Téléchargement direct
-
-Cloner le dépôt :
+### Option 1 — Cloner le dépôt
 
 ```
-git clone https://github.com/votre-user/dashboard-enrichissement.git
-cd dashboard-enrichissement
+git clone https://github.com/gunout/enrichissement-u_92.git
+cd enrichissement-u_92
 ```
 
-Puis ouvrir `index.html` dans un navigateur moderne (Chrome, Firefox, Edge, Safari).
+Puis ouvrir [`index.html`](https://github.com/gunout/enrichissement-u_92/blob/main/index.html) dans un navigateur moderne (Chrome, Firefox, Edge, Safari).
 
 ### Option 2 — Serveur local (recommandé pour le plein écran)
 
@@ -146,6 +147,16 @@ Puis ouvrir l'adresse suivante dans le navigateur :
 ```
 http://localhost:8000
 ```
+
+### Option 3 — Accès direct en ligne
+
+Les fichiers sont consultables directement sur GitHub :
+
+- 🔹 [index.html](https://github.com/gunout/enrichissement-u_92/blob/main/index.html) — Dashboard principal
+- 🔹 [index1.html](https://github.com/gunout/enrichissement-u_92/blob/main/index1.html)
+- 🔹 [index2.html](https://github.com/gunout/enrichissement-u_92/blob/main/index2.html)
+- 🔹 [index3.html](https://github.com/gunout/enrichissement-u_92/blob/main/index3.html)
+- 🔹 [index4.html](https://github.com/gunout/enrichissement-u_92/blob/main/index4.html)
 
 ---
 
@@ -211,13 +222,17 @@ Capture du canvas avec les trois courbes et la signature RF en bas à droite.
 ## 📁 Structure du projet
 
 ```
-dashboard-enrichissement/
-├── index.html          # Dashboard complet (HTML + CSS + JS inline)
+enrichissement-u_92/
+├── index.html          # Dashboard principal (HTML + CSS + JS inline)
+├── index1.html         # Variante 1
+├── index2.html         # Variante 2
+├── index3.html         # Variante 3
+├── index4.html         # Variante 4
 ├── README.md           # Ce fichier
 └── LICENSE             # MIT
 ```
 
-**Aucun asset externe** — tout est embarqué dans un seul fichier HTML pour une portabilité maximale.
+**Aucun asset externe** — tout est embarqué dans chaque fichier HTML pour une portabilité maximale.
 
 ---
 
@@ -240,17 +255,17 @@ dashboard-enrichissement/
 
 Les contributions sont bienvenues !
 
-1. Fork le projet
+1. Fork le projet : [github.com/gunout/enrichissement-u_92/fork](https://github.com/gunout/enrichissement-u_92/fork)
 2. Créer une branche (`git checkout -b feature/amelioration`)
 3. Commit (`git commit -m 'Ajout fonctionnalité X'`)
 4. Push (`git push origin feature/amelioration`)
-5. Ouvrir une Pull Request
+5. Ouvrir une [Pull Request](https://github.com/gunout/enrichissement-u_92/pulls)
 
 ---
 
 ## 📜 Licence
 
-Distribué sous licence **MIT**. Voir [`LICENSE`](LICENSE) pour plus d'informations.
+Distribué sous licence **MIT**. Voir [LICENSE](https://github.com/gunout/enrichissement-u_92/blob/main/LICENSE) pour plus d'informations.
 
 ---
 
@@ -261,6 +276,8 @@ Distribué sous licence **MIT**. Voir [`LICENSE`](LICENSE) pour plus d'informati
 **Liberté · Égalité · Fraternité**
 
 [![RF](https://img.shields.io/badge/RF-République%20Française-0055A4?style=for-the-badge)](https://www.gouvernement.fr)
+
+[![Repo](https://img.shields.io/badge/GitHub-gunout%2Fenrichissement--u__92-0055A4?style=for-the-badge&logo=github)](https://github.com/gunout/enrichissement-u_92)
 
 *Dashboard scientifique — Usage éducatif et de recherche*
 
